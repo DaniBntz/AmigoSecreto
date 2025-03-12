@@ -57,8 +57,8 @@ function sortearAmigo() {
 
 // Configuración inicial
 function condicionesIniciales() {
-    asignarTextoElemento(".main-title", "¡Bienvenodo al Juego del Amigo Secreto!");
-    asignarTextoElemento(".section-title", "Digita el nombre de tus amigos para empezar");
+    asignarTextoElemento(".main-title", "¡Bienvenido al Juego del Amigo Secreto!");
+    asignarTextoElemento(".section-title", "Para empezar, escribe uno a uno el nombre de tus amigos");
 }
 
 // Llamar a las condiciones iniciales
