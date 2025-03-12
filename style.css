@@ -75,7 +75,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     margin-top: 20px;
 }
 
@@ -88,8 +88,10 @@ body {
 }
 
 .button-container {
-    width: 300px;
+    display: flex;
     justify-content: center;
+    margin-top: 40px; /* Agrega espacio arriba del botón */
+    width: 100%;
 }
 
 /* Estilos de entrada de texto */
@@ -146,15 +148,23 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    padding: 10px 40px;
+    max-width: 400px;  
+    padding: 12px 20px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    gap:8px;
 }
 
 .button-draw img {
-    margin-right: 40px;
+    width: 24px; 
+    height: 24px;
+    margin-right: 5px; 
 }
 
 .button-draw:hover {
