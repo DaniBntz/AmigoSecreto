@@ -191,5 +191,23 @@ ul {
         align-items: center;
         width: 100%;
         padding: 20px 0;
+        order: -1;
     }
+
+    .input-section {
+        padding: 15px; 
+    }
+
+    .button-container {
+        margin-top: 10px; 
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .button-draw {
+        max-width: 90%; 
+        padding: 10px 20px; 
+    }
+
 }
