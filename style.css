@@ -32,10 +32,10 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
+    width: 100%;
     padding: 40px 0 0;
 }
 
@@ -59,6 +59,11 @@ body {
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
+    text-align: center; 
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 .section-title {
@@ -169,4 +174,22 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Ajuste responsivo*/
+@media (max-width: 768px) {  
+    .main-title {
+        font-size: 24px; 
+        max-width: 90%; 
+        text-align: center; 
+        margin: 0 auto; 
+    }
+
+    .header-banner {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 0;
+    }
 }
